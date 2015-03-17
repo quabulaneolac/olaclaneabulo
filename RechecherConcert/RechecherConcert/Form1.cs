@@ -23,6 +23,7 @@ namespace RechecherConcert
         private void Form1_Load(object sender, EventArgs e)
         {
             Console.WriteLine("Thomas est un bg");
+            Console.WriteLine("Pfff c'est des conneries c'est joss le bg ! ");
         }
     }
 }
