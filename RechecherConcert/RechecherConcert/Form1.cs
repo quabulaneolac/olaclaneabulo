@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace RechecherConcert
 {
-    public partial class Form1 : Form
+    public partial class FrmRechercheConcert : Form
     {
-        public Form1()
+        public FrmRechercheConcert()
         {
             InitializeComponent();
         }
@@ -25,5 +25,13 @@ namespace RechecherConcert
             Console.WriteLine("Thomas est un bg");
             Console.WriteLine("Pfff c'est des conneries c'est joss le bg ! ");
         }
+
+        private void btnMap_Click(object sender, EventArgs e)
+        {
+           frmMap formulaire = new frmMap();
+           formulaire.Show();
+        }
+
+       
     }
 }
