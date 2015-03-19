@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace RechecherConcert
 {
-    public partial class frmMap : Form
+    public partial class frmDetails : Form
     {
-        public frmMap()
+        public frmDetails()
         {
             InitializeComponent();
         }

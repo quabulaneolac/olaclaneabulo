@@ -1,6 +1,6 @@
 ﻿namespace RechecherConcert
 {
-    partial class frmMap
+    partial class frmDetails
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMap));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDetails));
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.SuspendLayout();
             // 
@@ -41,15 +41,15 @@
             this.webBrowser1.Size = new System.Drawing.Size(546, 403);
             this.webBrowser1.TabIndex = 0;
             // 
-            // frmMap
+            // frmDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(546, 403);
             this.Controls.Add(this.webBrowser1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "frmMap";
-            this.Text = "Localisation ";
+            this.Name = "frmDetails";
+            this.Text = "Information  & Localisation ";
             this.Load += new System.EventHandler(this.frmMap_Load);
             this.ResumeLayout(false);
 
