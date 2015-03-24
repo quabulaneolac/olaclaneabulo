@@ -10,20 +10,16 @@ using System.Windows.Forms;
 
 namespace RechecherConcert
 {
-    public partial class Form1 : Form
+    public partial class frmDetails : Form
     {
-        public Form1()
+        public frmDetails()
         {
             InitializeComponent();
         }
 
-
-       
-
-        private void Form1_Load(object sender, EventArgs e)
+        private void frmMap_Load(object sender, EventArgs e)
         {
-            Console.WriteLine("Thomas est un bg");
-            Console.WriteLine("Pfff c'est des conneries c'est joss le bg ! ");
+            webBrowser1.Navigate("https://www.google.fr/maps");
         }
     }
 }
