@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RechecherConcert", "RechecherConcert\RechecherConcert.csproj", "{A23F307F-3AA7-4CC9-898C-8C8A0F29F148}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quabulaneolac", "..\..\..\Semestre 2\MTI\SLAM2\ZiKnCo\CoverflowDllPerso\JossMartin\quabulaneolac.csproj", "{195912CF-3A5F-4358-982A-22F98B8D5A20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A23F307F-3AA7-4CC9-898C-8C8A0F29F148}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A23F307F-3AA7-4CC9-898C-8C8A0F29F148}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A23F307F-3AA7-4CC9-898C-8C8A0F29F148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{195912CF-3A5F-4358-982A-22F98B8D5A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{195912CF-3A5F-4358-982A-22F98B8D5A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{195912CF-3A5F-4358-982A-22F98B8D5A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{195912CF-3A5F-4358-982A-22F98B8D5A20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -77,6 +77,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Semestre 2\MTI\SLAM2\ZiKnCo\CoverflowDllPerso\JossMartin\quabulaneolac.csproj">
+      <Project>{195912cf-3a5f-4358-982a-22f98b8d5a20}</Project>
+      <Name>quabulaneolac</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
