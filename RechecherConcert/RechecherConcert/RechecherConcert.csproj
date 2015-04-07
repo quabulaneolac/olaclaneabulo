@@ -58,7 +58,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tools.cs" />
     <EmbeddedResource Include="FrmDemarrage.resx">
       <DependentUpon>FrmDemarrage.cs</DependentUpon>
     </EmbeddedResource>
@@ -88,8 +87,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Semestre 2\MTI\SLAM2\ZiKnCo\CoverflowDllPerso\JossMartin\quabulaneolac.csproj">
-      <Project>{195912cf-3a5f-4358-982a-22f98b8d5a20}</Project>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\quabulaneolac\quabulaneolac.csproj">
+      <Project>{3d60cf59-a964-44d6-94db-95777c7db52a}</Project>
       <Name>quabulaneolac</Name>
     </ProjectReference>
   </ItemGroup>

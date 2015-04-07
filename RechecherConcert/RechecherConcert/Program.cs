@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using quabulaneolac.Deezer;
 using quabulaneolac.Musique;
+
+
 
 namespace RechecherConcert
 {
@@ -15,15 +18,10 @@ namespace RechecherConcert
         [STAThread]
         static void Main()
         {
-            List<int> id = LastfmAPI.getIdLieubyName("OTO");
-            //List<Event> lesEvents = LastfmAPI.getIdLieubyName("OTO");
-            foreach (int unEvent in id)
-            {
-                Console.WriteLine(unEvent);
-            }
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FrmRechercheConcert());
+
         }
     }
 }
